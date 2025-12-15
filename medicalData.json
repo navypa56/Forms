@@ -1,0 +1,5533 @@
+{
+  "Orthopedics": {
+    "Low Back Pain": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Burning", "Stabbing", "Radiating"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., right lumbar"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Numbness", "Weakness", "Tingling", "Bowel/Bladder changes", "Fever", "Weight loss"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, Surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Unsteady", "Unable to ambulate"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension", "Limited lateral bending"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensory/motor", "Decreased strength", "Decreased sensation", "Reflex changes"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Straight Leg Raise", "Faber Test", "Spurling Test", "Babinski"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Scoliosis", "Spasm", "Step-off", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Neck Pain": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Burning", "Stabbing", "Radiating"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., left cervical"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Numbness", "Weakness", "Tingling", "Radiation to arm", "Headache", "Visual changes"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, Previous injury"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Unsteady", "Antalgic", "Unable to ambulate"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension", "Limited rotation", "Limited side bending"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensory/motor", "Decreased strength", "Decreased sensation", "Reflex changes"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Spurling's test", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Spasm", "Step-off", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Shoulder Pain": {
+      "HPI": [
+        {
+          "field": "Which shoulder?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Hand Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Throbbing", "Radiating", "Clicking"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., anterior, posterior, lateral shoulder"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Weakness", "Stiffness", "Instability/giving way", "Numbness", "Tingling", "Swelling"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, Steroid injection, Surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which shoulder on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Unsteady", "Antalgic", "Unable to ambulate"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited abduction", "Limited external rotation", "Limited internal rotation", "Painful arc"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensory/motor", "Decreased strength", "Decreased sensation", "Reflex changes"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Neer test", "Hawkins test", "Empty Can", "Drop Arm", "Apprehension", "O'Brien's test", "Speed's test", "Cross-body adduction", "Sulcus sign"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Impingement signs", "Crepitus", "Instability", "Labral signs", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Carpal Tunnel Syndrome": {
+      "HPI": [
+        {
+          "field": "Which wrist?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Hand Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 4 months"
+        },
+        {
+          "field": "Symptoms Character",
+          "type": "checkbox-group",
+          "options": ["Tingling", "Numbness", "Burning", "Pain", "Weakness"],
+          "comment": true
+        },
+        {
+          "field": "Symptom Location",
+          "type": "text",
+          "placeholder": "e.g., thumb, index, middle fingers"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Hand swelling", "Clumsiness", "Weak grip", "Dropping objects"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Splinting, NSAIDs, Steroid injection"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which wrist on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Apparent discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait (if relevant)",
+          "type": "checkbox-group",
+          "options": ["Normal", "Unsteady"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased median nerve sensation", "Thenar muscle weakness", "Normal strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Phalen's test", "Tinel's sign", "Durkan's test", "Reverse Phalen's test", "Carpal compression", "Hand elevation", "Grip strength", "Prayer test"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Thenar atrophy", "Weak opposition", "Decreased grip strength", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Knee Pain": {
+      "HPI": [
+        {
+          "field": "Which knee?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Leg Dominance (if evaluated)",
+          "type": "dropdown",
+          "options": ["Right-legged", "Left-legged", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Throbbing", "Popping sensation", "Locking"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., anterior, medial, lateral, posterior knee"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Instability/giving way", "Locking", "Clicking/popping", "Weakness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, Injections, Surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which knee on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Limping", "Unable to bear weight"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["McMurray (meniscus)", "Lachman (ACL)", "Anterior Drawer (ACL)", "Posterior Drawer (PCL)", "Varus stress (LCL)", "Valgus stress (MCL)", "Thessaly (meniscus)", "Patellar grind", "Ballottement (effusion)", "Ober's test (IT band)", "Pivot shift (ACL/rotatory)", "Apley's compression (meniscus)"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Effusion", "Baker's cyst", "Quadriceps atrophy", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Tendonitis": {
+      "HPI": [
+        {
+          "field": "Which side/region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., lateral elbow, wrist, Achilles"
+        },
+        {
+          "field": "Hand/leg dominance",
+          "type": "dropdown",
+          "options": ["Right-handed/legged", "Left-handed/legged", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 months"
+        },
+        {
+          "field": "Pain/Discomfort Character",
+          "type": "checkbox-group",
+          "options": ["Dull", "Aching", "Sharp", "Burning", "Throbbing"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., insertion, mid-tendon"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Stiffness", "Swelling", "Weakness", "Numbness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Rest, NSAIDs, steroid injection, PT"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which side/region on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., elbow, wrist, Achilles"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait/Function",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Unable to fully use limb"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited", "Painful"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Cozen's test (lateral epicondylitis)", "Mill's test (lateral epicondylitis)", "Finkelstein's test (De Quervain's)", "Eichhoff's test (De Quervain's)", "Speed's test (biceps)", "Yergason's test (biceps)", "Thompson's test (Achilles)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Local swelling", "Nodules/thickening", "Crepitus", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Upper Back Pain": {
+      "HPI": [
+        {
+          "field": "Which area?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Midline", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., upper thoracic, between scapulae"
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 1 month"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Burning", "Stiffness"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., right paraspinal, scapula border"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Radiation", "Numbness", "Tingling", "Muscle spasms"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, chiropractic"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which area on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Midline", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., paraspinal, scapular, costovertebral"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Posture/Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Kyphotic", "Guarded movement"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited extension", "Limited lateral flexion", "Limited rotation"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensory/motor", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Thoracic mobility test", "Rib spring test", "Slump test", "Spurling's (upper radic.)", "Passive extension test", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Muscle spasm", "Tenderness to percussion", "Scoliosis", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Hip Pain": {
+      "HPI": [
+        {
+          "field": "Which hip?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Leg Dominance (if relevant)",
+          "type": "dropdown",
+          "options": ["Right-legged", "Left-legged", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 1 week"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Burning", "Throbbing", "Clicking"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., groin, lateral hip, buttock"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Weakness", "Stiffness", "Swelling", "Numbness", "Tingling", "Instability/giving way"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, hip injection, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which hip on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Limping", "Unable to bear weight", "Trendelenburg"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension", "Limited abduction", "Limited internal rotation"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensory/motor", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["FADIR (impingement)", "FABER/Patrick's (SI joint/hip)", "Log roll", "Ober's test (IT band)", "Trendelenburg sign", "Thomas test (flexor tightness)", "Scour test", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Tender GT bursa", "SI joint tenderness", "Labral click", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Sciatica": {
+      "HPI": [
+        {
+          "field": "Which side?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-legged", "Left-legged", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Burning", "Shooting", "Electric", "Aching"],
+          "comment": true
+        },
+        {
+          "field": "Pain Radiation/Location",
+          "type": "text",
+          "placeholder": "e.g., buttock, thigh, calf, foot"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Numbness", "Tingling", "Weakness", "Bowel/bladder changes"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Epidural steroid, PT, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant info"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which side on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Limping", "Steppage gait"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensory/motor", "Decreased sensation", "Normal reflexes", "Hyporeflexia", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Straight Leg Raise (SLR)", "Crossed SLR", "Bragard's test", "Slump test", "Bowstring sign", "Reverse SLR", "Femoral stretch", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Positive SLR", "Foot drop", "Muscle atrophy", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Plantar Fasciitis": {
+      "HPI": [
+        {
+          "field": "Which foot?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-footed", "Left-footed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 months"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Burning", "Throbbing"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., plantar heel, arch"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Stiffness", "Swelling", "Numbness", "Tingling"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Orthotics, PT, injection"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which foot on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort", "Abnormal gait"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Unable to bear weight"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited dorsiflexion"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased heel sensation", "Normal strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Windlass test", "Single leg heel raise", "Tinel's sign (tarsal tunnel)", "Silfverskiöld test (Achilles tightness)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Tender plantar fascia", "Heel spur palpation", "Swelling", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Elbow Pain": {
+      "HPI": [
+        {
+          "field": "Which elbow?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Throbbing", "Burning"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., lateral, medial, posterior elbow"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Weakness", "Swelling", "Stiffness", "Numbness", "Tingling"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Bracing, NSAIDs, injection"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which elbow on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait/Function",
+          "type": "checkbox-group",
+          "options": ["Normal", "Guarded"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Cozen's test (lateral epicondylitis)", "Mill's test (lateral epicondylitis)", "Maudsley's test (lateral epicondylitis)", "Golfer's test (medial epicondylitis)", "Tinel's at elbow (ulnar nerve)", "Valgus stress (UCL)", "Varus stress (RCL)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Bursitis", "Crepitus", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Wrist Pain": {
+      "HPI": [
+        {
+          "field": "Which wrist?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Burning", "Throbbing"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., radial, ulnar, dorsal, volar"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Stiffness", "Numbness", "Tingling", "Weakness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., NSAIDs, splint, injection"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which wrist on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait/Function",
+          "type": "checkbox-group",
+          "options": ["Normal", "Guarded"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited flexion", "Limited extension"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Finkelstein's test (De Quervain's)", "Eichhoff's test (De Quervain's)", "Phalen's test (median n.)", "Tinel's at wrist (median n.)", "Watson test (scaphoid shift)", "Allen's test (vascular supply)", "TFCC compression test", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Tender snuffbox", "Ganglion cyst", "Swelling", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Ankle Pain": {
+      "HPI": [
+        {
+          "field": "Which ankle?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-footed", "Left-footed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Aching", "Throbbing", "Burning"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., lateral malleolus, medial malleolus, anterior, posterior"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Instability/giving way", "Stiffness", "Numbness", "Tingling"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., PT, splinting, injection, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which ankle on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Unable to bear weight"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited dorsiflexion", "Limited plantarflexion"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased sensation", "Normal strength", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Anterior Drawer Test (ATFL)", "Talar Tilt (calcaneofibular, deltoid)", "Squeeze test (syndesmosis)", "External Rotation Test (syndesmosis)", "Thompson Test (Achilles)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Ecchymosis", "Deformity", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Muscle Strains": {
+      "HPI": [
+        {
+          "field": "Which side and region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., right hamstring, left calf, lumbar"
+        },
+        {
+          "field": "Dominance (if relevant)",
+          "type": "dropdown",
+          "options": ["Right dominant", "Left dominant", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 4 days"
+        },
+        {
+          "field": "Pain/Discomfort Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Aching", "Throbbing", "Tightness", "Burning"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., mid muscle belly, tendon insertion"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Bruising", "Stiffness", "Weakness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Heat/ice, therapy, prior injury"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which side and region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., hamstring, calf, quadriceps"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait/Function",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Unable to bear weight"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited", "Painful"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Resisted contraction pain", "Pain with passive stretch", "Thompson test (Achilles)", "Ober's test (IT band)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Defect", "Bruising", "Swelling", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Thoracic Outlet Syndrome": {
+      "HPI": [
+        {
+          "field": "Which side?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 months"
+        },
+        {
+          "field": "Symptoms Character",
+          "type": "checkbox-group",
+          "options": ["Numbness", "Tingling", "Weakness", "Pain", "Swelling", "Coolness/discoloration"],
+          "comment": true
+        },
+        {
+          "field": "Symptoms Location/Distribution",
+          "type": "text",
+          "placeholder": "e.g., ulnar hand, forearm, entire arm"
+        },
+        {
+          "field": "Severity (0-10, if pain)",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Headache", "Neck pain", "Hand coldness/pallor", "Hand swelling", "Discoloration"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Physical therapy, nerve block, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which side on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Distress"],
+          "comment": true
+        },
+        {
+          "field": "Posture/Breathing/Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Guarded"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion (neck, shoulder, thoracic)",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased sensation", "Decreased strength"],
+          "comment": true
+        },
+        {
+          "field": "Vascular Exam",
+          "type": "checkbox-group",
+          "options": ["Normal pulses", "Diminished pulses", "Color change", "Swelling"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Adson's (scalene)", "Wright's/Hyperabduction", "Costoclavicular (military)", "Roos/Elevated Arm Stress Test", "Allen's maneuver", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Muscle atrophy", "Swelling", "Discoloration", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Trigger Finger": {
+      "HPI": [
+        {
+          "field": "Which hand/finger?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Digit",
+          "type": "text",
+          "placeholder": "e.g., right ring finger"
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 6 weeks"
+        },
+        {
+          "field": "Symptoms Character",
+          "type": "checkbox-group",
+          "options": ["Catching", "Locking", "Snapping", "Stiffness", "Pain"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., A1 pulley, MCP, PIP"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Tenderness at A1 pulley", "Decreased finger motion"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., NSAIDs, steroid injection, splint, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which hand/finger on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Digit on exam",
+          "type": "text",
+          "placeholder": "e.g., right middle finger"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Apparent discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Gait/Function",
+          "type": "checkbox-group",
+          "options": ["Normal", "Guarded"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited", "Painful"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased sensation"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests/Provocative signs",
+          "type": "special-test-dropdown",
+          "tests": ["Triggering/catching with flexion/extension", "Palpable nodule", "Tender A1 pulley", "Loss of active extension", "Locking of finger", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Nodule", "Locking", "Tender A1 pulley", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Bursitis": {
+      "HPI": [
+        {
+          "field": "Which side/region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., right shoulder, left hip, right elbow"
+        },
+        {
+          "field": "Dominance (if applicable)",
+          "type": "dropdown",
+          "options": ["Right-dominant", "Left-dominant", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 weeks"
+        },
+        {
+          "field": "Symptoms Character",
+          "type": "checkbox-group",
+          "options": ["Aching", "Throbbing", "Sharp", "Stiffness"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., greater trochanter, prepatellar, subacromial"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Redness/warmth", "Stiffness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., PT, ice, steroid injection"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which side/region on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., olecranon, subacromial, prepatellar"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Posture/Gait (if relevant)",
+          "type": "checkbox-group",
+          "options": ["Normal", "Guarded"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited", "Painful"],
+          "comment": true
+        },
+        {
+          "field": "Neurological (if relevant)",
+          "type": "checkbox-group",
+          "options": ["Normal", "Weakness"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Neer (shoulder/subacromial)", "Hawkins (shoulder/subacromial)", "Ober's (hip/GT)", "Foucher's (olecranon)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Fluctuance", "Redness/warmth", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Foot Pain": {
+      "HPI": [
+        {
+          "field": "Which foot/region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., forefoot, midfoot, 2nd toe"
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-footed", "Left-footed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks"
+        },
+        {
+          "field": "Pain Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Dull", "Aching", "Burning", "Throbbing"],
+          "comment": true
+        },
+        {
+          "field": "Pain Location",
+          "type": "text",
+          "placeholder": "e.g., ball of foot, heel, 3rd webspace"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Numbness", "Tingling", "Weakness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., Orthotics, PT, injection"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which foot/region on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., dorsal foot, plantar arch, 2nd metatarsal"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort", "Abnormal gait"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Antalgic", "Unable to bear weight"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal sensation", "Decreased sensation", "Tinel's over tarsal tunnel"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Mulder's sign (neuroma)", "Metatarsal squeeze test", "Tinel's over tarsal tunnel", "Morton's neuroma compression", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Swelling", "Bruising", "Deformity", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Hand Arthritis": {
+      "HPI": [
+        {
+          "field": "Which hand/joint/region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., 1st CMC, PIP joints, entire hand"
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 years"
+        },
+        {
+          "field": "Joint Pain/Character",
+          "type": "checkbox-group",
+          "options": ["Aching", "Sharp", "Stiffness", "Swelling", "Locking/catching"],
+          "comment": true
+        },
+        {
+          "field": "Pain/Swelling Location",
+          "type": "text",
+          "placeholder": "e.g., MCP, PIP, DIP, thumb base"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Morning stiffness", "Warmth/redness", "Numbness"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., NSAIDs, splint, steroids, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which hand/joint/region on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., MCP, thumb CMC, PIP/DIP"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Discomfort"],
+          "comment": true
+        },
+        {
+          "field": "Deformity/Swelling",
+          "type": "checkbox-group",
+          "options": ["None", "Node (Bouchard/Heberden)", "Ulnar drift", "Swelling"],
+          "comment": true
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited", "Painful"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased sensation"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Grind test (thumb CMC)", "Finkelstein's (de Quervain's)", "Bunnell's test (intrinsic tightness)", "Squeeze test (MCP inflammation)", "Phalen's/Tinel's (CTS overlap)", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Warmth/redness", "Node", "Deformity", "Swelling", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Cervical Radiculopathy": {
+      "HPI": [
+        {
+          "field": "Which side/region?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region",
+          "type": "text",
+          "placeholder": "e.g., C6, right; C7, left"
+        },
+        {
+          "field": "Dominance",
+          "type": "dropdown",
+          "options": ["Right-handed", "Left-handed", "Ambidextrous"]
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 weeks"
+        },
+        {
+          "field": "Symptoms/Character",
+          "type": "checkbox-group",
+          "options": ["Radiating pain", "Numbness", "Tingling", "Weakness", "Burning"],
+          "comment": true
+        },
+        {
+          "field": "Symptoms Location/Distribution",
+          "type": "text",
+          "placeholder": "e.g., neck radiates to index finger (C6)"
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Headache", "Scapular pain", "Weak grip", "Loss of dexterity"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes and Treatments",
+          "type": "text",
+          "placeholder": "e.g., PT, injections, surgery"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant info"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Which side/region on exam?",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"]
+        },
+        {
+          "field": "Region on exam",
+          "type": "text",
+          "placeholder": "e.g., left C7, right C6"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Distress"],
+          "comment": true
+        },
+        {
+          "field": "Posture/Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Guarded"],
+          "comment": true
+        },
+        {
+          "field": "Palpation Findings",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Range of Motion",
+          "type": "checkbox-group",
+          "options": ["Full", "Limited extension", "Limited lateral rotation", "Limited lateral flexion"],
+          "comment": true
+        },
+        {
+          "field": "Neurological",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased sensation", "Decreased strength", "Abnormal reflexes"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Spurling's (foraminal compression)", "Shoulder abduction relief test", "Lhermitte's sign", "Upper limb tension test", "Hoffman's sign", "Valsalva maneuver", "Other"]
+        },
+        {
+          "field": "Exam-specific Findings",
+          "type": "checkbox-group",
+          "options": ["None", "Clonus", "Gait abnormality", "Sensation loss", "Other"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Primary Care": {
+    "Headache": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 hours, 3 days"
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Frontal", "Temporal", "Occipital", "Parietal", "Unilateral", "Bilateral", "Generalized"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Throbbing", "Pulsating", "Pressure", "Sharp", "Stabbing", "Dull", "Aching"],
+          "comment": true
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Nausea", "Vomiting", "Photophobia", "Phonophobia", "Visual changes", "Aura", "Neck stiffness", "Fever"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes",
+          "type": "text",
+          "placeholder": "e.g., Similar headaches monthly for 2 years"
+        },
+        {
+          "field": "Medications Tried",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Photophobic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hypertensive", "Febrile", "Tachycardic"],
+          "comment": true
+        },
+        {
+          "field": "Head and Neck",
+          "type": "checkbox-group",
+          "options": ["Normal", "Neck stiffness", "Temporal artery tenderness", "Sinus tenderness"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Focal deficits", "Altered mental status", "Papilledema"],
+          "comment": true
+        },
+        {
+          "field": "Cranial Nerves",
+          "type": "checkbox-group",
+          "options": ["Intact", "CN II-VII abnormalities", "CN VIII-XII abnormalities"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Fatigue": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks, 6 months"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe", "Debilitating"],
+          "comment": true
+        },
+        {
+          "field": "Pattern",
+          "type": "checkbox-group",
+          "options": ["Constant", "Worse in morning", "Worse in evening", "After exertion", "Improves with rest"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Weakness", "Shortness of breath", "Chest pain", "Palpitations", "Dizziness", "Fever", "Weight loss", "Weight gain", "Sleep disturbances"],
+          "comment": true
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Sleep History",
+          "type": "checkbox-group",
+          "options": ["Normal", "Insomnia", "Excessive sleep", "Snoring", "Apnea symptoms"],
+          "comment": true
+        },
+        {
+          "field": "Review of Systems",
+          "type": "checkbox-group",
+          "options": ["Constitutional", "Cardiac", "Respiratory", "GI", "GU", "Endocrine", "Psychiatric"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Fatigued", "Pale", "Cachectic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Bradycardic", "Hypertensive", "Hypotensive", "Febrile", "Hypothermic"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Murmur", "Arrhythmia", "Gallop", "JVD", "Edema"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachypnea", "Abnormal breath sounds", "Decreased air movement"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Organomegaly", "Tenderness", "Masses"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Weakness", "Abnormal reflexes", "Cognitive changes"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Hypertension": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["New diagnosis", "Known hypertension", "Uncontrolled", "Well controlled"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., Newly diagnosed, 5 years"
+        },
+        {
+          "field": "Current BP",
+          "type": "text",
+          "placeholder": "e.g., 150/95"
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Headache", "Dizziness", "Chest pain", "Shortness of breath", "Visual changes", "Nosebleeds"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Compliance",
+          "type": "checkbox-group",
+          "options": ["Compliant", "Non-compliant", "Partial compliance"],
+          "comment": true
+        },
+        {
+          "field": "Risk Factors",
+          "type": "checkbox-group",
+          "options": ["Family history", "Obesity", "Diabetes", "Smoking", "Alcohol", "Sedentary lifestyle", "High salt diet", "Stress"],
+          "comment": true
+        },
+        {
+          "field": "End Organ Damage",
+          "type": "checkbox-group",
+          "options": ["None", "CVD", "CKD", "Retinopathy", "LVH"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "Blood Pressure",
+          "type": "text",
+          "placeholder": "e.g., 150/95 mmHg"
+        },
+        {
+          "field": "Heart Rate",
+          "type": "text",
+          "placeholder": "e.g., 78 bpm"
+        },
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Anxious"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "S4 gallop", "S3 gallop", "Murmur", "LVH", "JVD"],
+          "comment": true
+        },
+        {
+          "field": "Vascular Exam",
+          "type": "checkbox-group",
+          "options": ["Normal pulses", "Diminished pulses", "Bruits", "Carotid bruit"],
+          "comment": true
+        },
+        {
+          "field": "Fundoscopic Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "AV nicking", "Hemorrhages", "Exudates", "Papilledema"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Bruits", "Masses", "Organomegaly"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Upper Respiratory Infection": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 days"
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["Rhinorrhea", "Nasal congestion", "Sore throat", "Cough", "Fever", "Headache", "Body aches", "Fatigue"],
+          "comment": true
+        },
+        {
+          "field": "Fever",
+          "type": "checkbox-group",
+          "options": ["No fever", "Low grade", "High grade"],
+          "comment": true
+        },
+        {
+          "field": "Cough Character",
+          "type": "checkbox-group",
+          "options": ["Dry", "Productive", "Wet", "Barking"],
+          "comment": true
+        },
+        {
+          "field": "Sputum",
+          "type": "checkbox-group",
+          "options": ["None", "Clear", "Yellow", "Green", "Blood-tinged"],
+          "comment": true
+        },
+        {
+          "field": "Exposures",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Previous Treatments",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Ill appearing", "Toxic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Febrile", "Tachycardic", "Tachypneic"],
+          "comment": true
+        },
+        {
+          "field": "HEENT",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rhinorrhea", "Nasal congestion", "Pharyngeal erythema", "Exudates", "Lymphadenopathy"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rhonchi", "Wheezing", "Rales", "Decreased breath sounds"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Cardiology": {
+    "Chest Pain": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 30 minutes, 2 hours"
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Substernal", "Left chest", "Right chest", "Epigastric", "Radiation to arm", "Radiation to jaw", "Radiation to back"],
+          "comment": true
+        },
+        {
+          "field": "Quality",
+          "type": "checkbox-group",
+          "options": ["Pressure", "Squeezing", "Crushing", "Sharp", "Stabbing", "Burning", "Aching", "Tightness"],
+          "comment": true
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Shortness of breath", "Diaphoresis", "Nausea", "Vomiting", "Dizziness", "Syncope", "Palpitations"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Risk Factors",
+          "type": "checkbox-group",
+          "options": ["Age", "Male gender", "Family history", "Diabetes", "Hypertension", "Hyperlipidemia", "Smoking", "Obesity", "Sedentary"],
+          "comment": true
+        },
+        {
+          "field": "Previous Cardiac History",
+          "type": "text",
+          "placeholder": "e.g., MI, CAD, stents, CABG"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Diaphoretic", "Pale"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Bradycardic", "Hypertensive", "Hypotensive", "Tachypneic", "Hypoxic"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Regular rhythm", "Irregular rhythm", "Murmur", "S3", "S4", "Gallop", "Rub", "PMI displaced"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rales", "Wheezing", "Decreased breath sounds", "Accessory muscle use"],
+          "comment": true
+        },
+        {
+          "field": "Extremities",
+          "type": "checkbox-group",
+          "options": ["Normal", "Edema", "JVD", "Cool extremities", "Cyanosis"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Palpitations": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., Seconds, minutes, hours"
+        },
+        {
+          "field": "Frequency",
+          "type": "checkbox-group",
+          "options": ["Rare", "Occasional", "Frequent", "Constant"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Skipped beats", "Racing", "Pounding", "Fluttering", "Irregular"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Chest pain", "Shortness of breath", "Dizziness", "Syncope", "Lightheadedness", "Fatigue"],
+          "comment": true
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Caffeine/Stimulant Use",
+          "type": "checkbox-group",
+          "options": ["None", "Coffee", "Energy drinks", "Alcohol", "Tobacco", "Illicit drugs"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Anxious", "In distress"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Bradycardic", "Irregular pulse", "Hypertensive"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Regular rhythm", "Irregular rhythm", "Murmur", "Extra heart sounds", "PMI normal"],
+          "comment": true
+        },
+        {
+          "field": "Thyroid Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Enlarged", "Nodules", "Tender"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Syncope": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Recurrent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., Seconds, minutes"
+        },
+        {
+          "field": "Triggers",
+          "type": "checkbox-group",
+          "options": ["None", "Standing", "Exertion", "Emotional stress", "Pain", "Coughing", "Urination", "Defecation", "Turning head"],
+          "comment": true
+        },
+        {
+          "field": "Prodrome",
+          "type": "checkbox-group",
+          "options": ["None", "Dizziness", "Nausea", "Sweating", "Tunnel vision", "Ringing in ears"],
+          "comment": true
+        },
+        {
+          "field": "Post-event",
+          "type": "checkbox-group",
+          "options": ["Rapid recovery", "Prolonged confusion", "Incontinence", "Tongue biting", "Seizure-like activity"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Chest pain", "Palpitations", "Shortness of breath", "Headache", "Focal neurological deficits"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac History",
+          "type": "checkbox-group",
+          "options": ["None", "Arrhythmia", "Structural heart disease", "Valvular disease", "CAD"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Post-syncopal", "Confused"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hypotensive", "Hypertensive", "Bradycardic", "Tachycardic", "Orthostatic changes"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Murmur", "Arrhythmia", "S3/S4", "JVD", "PMI displaced"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Focal deficits", "Altered mental status", "Abnormal reflexes"],
+          "comment": true
+        },
+        {
+          "field": "Orthostatic Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Positive", "Not performed"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Shortness of Breath": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 hours, 1 week"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe", "At rest"],
+          "comment": true
+        },
+        {
+          "field": "Exertional Level",
+          "type": "checkbox-group",
+          "options": ["At rest", "Minimal exertion", "Moderate exertion", "Severe exertion", "Nocturnal"],
+          "comment": true
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Chest pain", "Cough", "Wheezing", "Orthopnea", "PND", "Edema", "Fatigue"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac History",
+          "type": "checkbox-group",
+          "options": ["None", "CHF", "CAD", "Valvular disease", "Arrhythmia"],
+          "comment": true
+        },
+        {
+          "field": "Pulmonary History",
+          "type": "checkbox-group",
+          "options": ["None", "COPD", "Asthma", "Pneumonia", "PE"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Dyspneic", "Using accessory muscles"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachypneic", "Tachycardic", "Hypoxic", "Hypertensive", "Hypotensive"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rales", "Wheezing", "Rhonchi", "Decreased breath sounds", "Pleural rub"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "S3", "S4", "Murmur", "JVD", "PMI displaced"],
+          "comment": true
+        },
+        {
+          "field": "Extremities",
+          "type": "checkbox-group",
+          "options": ["Normal", "Edema", "Cyanosis", "Clubbing"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Gastroenterology": {
+    "Abdominal Pain": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 hours, 3 days"
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Epigastric", "Right upper quadrant", "Left upper quadrant", "Right lower quadrant", "Left lower quadrant", "Periumbilical", "Diffuse"],
+          "comment": true
+        },
+        {
+          "field": "Radiation",
+          "type": "checkbox-group",
+          "options": ["None", "To back", "To shoulder", "To groin"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Cramping", "Sharp", "Dull", "Burning", "Stabbing", "Colicky", "Pressure"],
+          "comment": true
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Nausea", "Vomiting", "Diarrhea", "Constipation", "Fever", "Chills", "Jaundice", "Blood in stool"],
+          "comment": true
+        },
+        {
+          "field": "Bowel Habits",
+          "type": "checkbox-group",
+          "options": ["Normal", "Constipation", "Diarrhea", "Bloody stools", "Melena", "Change in frequency"],
+          "comment": true
+        },
+        {
+          "field": "Diet History",
+          "type": "text",
+          "placeholder": "e.g., Recent meals, food triggers"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Guarding", "Fetal position"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Febrile", "Hypotensive"],
+          "comment": true
+        },
+        {
+          "field": "Inspection",
+          "type": "checkbox-group",
+          "options": ["Normal", "Distended", "Scars", "Visible peristalsis", "Hernias"],
+          "comment": true
+        },
+        {
+          "field": "Auscultation",
+          "type": "checkbox-group",
+          "options": ["Normal bowel sounds", "Hyperactive", "Hypoactive", "Absent", "Bruits"],
+          "comment": true
+        },
+        {
+          "field": "Percussion",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tympanitic", "Dullness", "Ascites"],
+          "comment": true
+        },
+        {
+          "field": "Palpation",
+          "type": "checkbox-group",
+          "options": ["Soft, non-tender", "Tender", "Guarding", "Rigidity", "Rebound", "Masses", "Organomegaly"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Murphy's sign", "McBurney's point", "Rovsing's sign", "Psoas sign", "Obturator sign", "Carnett's test"]
+        },
+        {
+          "field": "Rectal Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Tender", "Masses", "Blood", "Occult blood positive"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Nausea/Vomiting": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 1 day, 2 weeks"
+        },
+        {
+          "field": "Frequency",
+          "type": "checkbox-group",
+          "options": ["Rare", "Occasional", "Frequent", "Constant"],
+          "comment": true
+        },
+        {
+          "field": "Vomiting Character",
+          "type": "checkbox-group",
+          "options": ["Non-bloody", "Bloody", "Coffee ground", "Bilious", "Undigested food"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Abdominal pain", "Diarrhea", "Fever", "Headache", "Dizziness", "Weight loss"],
+          "comment": true
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Pregnancy Status",
+          "type": "checkbox-group",
+          "options": ["Not applicable", "Pregnant", "Possibly pregnant", "Postpartum"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Dehydrated", "In distress", "Cachectic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Hypotensive", "Febrile", "Orthostatic"],
+          "comment": true
+        },
+        {
+          "field": "Hydration Status",
+          "type": "checkbox-group",
+          "options": ["Well hydrated", "Dehydrated", "Dry mucous membranes", "Poor skin turgor"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Distended", "Tender", "Masses", "Organomegaly", "Bowel sounds abnormal"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Altered mental status", "Nuchal rigidity", "Focal deficits"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Diarrhea": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 days, 2 weeks"
+        },
+        {
+          "field": "Frequency",
+          "type": "checkbox-group",
+          "options": ["1-3/day", "4-6/day", "7-10/day", ">10/day"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Watery", "Loose", "Formed", "Mucous", "Bloody", "Fatty", "Foul-smelling"],
+          "comment": true
+        },
+        {
+          "field": "Volume",
+          "type": "checkbox-group",
+          "options": ["Small", "Moderate", "Large", "Profuse"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Abdominal pain", "Cramping", "Nausea", "Vomiting", "Fever", "Chills", "Weight loss", "Dehydration"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Travel History",
+          "type": "checkbox-group",
+          "options": ["None", "Recent travel", "International travel"],
+          "comment": true
+        },
+        {
+          "field": "Exposures",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Dehydrated", "Toxic", "Cachectic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Hypotensive", "Febrile", "Orthostatic"],
+          "comment": true
+        },
+        {
+          "field": "Hydration Status",
+          "type": "checkbox-group",
+          "options": ["Well hydrated", "Dehydrated", "Dry mucous membranes", "Poor skin turgor", "Sunken eyes"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Distended", "Tender", "Hyperactive bowel sounds", "Masses"],
+          "comment": true
+        },
+        {
+          "field": "Rectal Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Blood", "Tenderness", "Masses"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Constipation": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 days, 2 weeks"
+        },
+        {
+          "field": "Frequency",
+          "type": "checkbox-group",
+          "options": ["<3/week", "1/week", "Rare", "None"],
+          "comment": true
+        },
+        {
+          "field": "Stool Character",
+          "type": "checkbox-group",
+          "options": ["Hard", "Small pellets", "Large", "Painful", "Requires straining"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Abdominal pain", "Bloating", "Nausea", "Rectal bleeding", "Weight loss"],
+          "comment": true
+        },
+        {
+          "field": "Diet",
+          "type": "checkbox-group",
+          "options": ["Normal", "Low fiber", "Inadequate fluids", "Dietary changes"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Lifestyle",
+          "type": "checkbox-group",
+          "options": ["Sedentary", "Active", "Recent changes"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Uncomfortable", "Distended"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Distended", "Tender", "Masses", "Fecal impaction"],
+          "comment": true
+        },
+        {
+          "field": "Rectal Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Hard stool", "Impaction", "Masses"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Neurology": {
+    "Seizure": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "First time", "Recurrent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 minutes"
+        },
+        {
+          "field": "Type",
+          "type": "checkbox-group",
+          "options": ["Generalized", "Focal", "Unknown"],
+          "comment": true
+        },
+        {
+          "field": "Aura",
+          "type": "checkbox-group",
+          "options": ["None", "Visual", "Auditory", "Olfactory", "Gustatory", "Déjà vu", "Jamais vu", "Autonomic"],
+          "comment": true
+        },
+        {
+          "field": "Seizure Activity",
+          "type": "checkbox-group",
+          "options": ["Tonic-clonic", "Tonic", "Clonic", "Absence", "Myoclonic", "Atonic", "Focal motor", "Focal sensory"],
+          "comment": true
+        },
+        {
+          "field": "Postictal State",
+          "type": "checkbox-group",
+          "options": ["Rapid recovery", "Prolonged confusion", "Todd's paralysis", "Headache", "Amnesia"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Incontinence", "Tongue biting", "Injury", "Headache"],
+          "comment": true
+        },
+        {
+          "field": "Seizure History",
+          "type": "checkbox-group",
+          "options": ["First time", "Known epilepsy", "Medication non-compliance", "Recent medication changes"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Postictal", "Confused", "Altered mental status"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Hypertensive", "Febrile"],
+          "comment": true
+        },
+        {
+          "field": "Mental Status",
+          "type": "checkbox-group",
+          "options": ["Alert and oriented", "Confused", "Lethargic", "Comatose"],
+          "comment": true
+        },
+        {
+          "field": "Cranial Nerves",
+          "type": "checkbox-group",
+          "options": ["Intact", "CN deficits", "Pupillary abnormalities", "Facial asymmetry"],
+          "comment": true
+        },
+        {
+          "field": "Motor Exam",
+          "type": "checkbox-group",
+          "options": ["Normal strength", "Focal weakness", "Todd's paralysis", "Hemiparesis"],
+          "comment": true
+        },
+        {
+          "field": "Sensory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Focal deficits", "Hemianesthesia"],
+          "comment": true
+        },
+        {
+          "field": "Reflexes",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hyperreflexia", "Hyporeflexia", "Asymmetric"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Ataxic", "Hemiparetic", "Unable to assess"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Stroke": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Unknown"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 30 minutes, 2 hours"
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["Facial droop", "Arm weakness", "Leg weakness", "Speech difficulty", "Vision loss", "Dizziness", "Ataxia", "Headache"],
+          "comment": true
+        },
+        {
+          "field": "Side Affected",
+          "type": "checkbox-group",
+          "options": ["Left", "Right", "Bilateral"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Headache", "Nausea", "Vomiting", "Altered mental status", "Seizure"],
+          "comment": true
+        },
+        {
+          "field": "Risk Factors",
+          "type": "checkbox-group",
+          "options": ["Hypertension", "Diabetes", "Atrial fibrillation", "Smoking", "Hyperlipidemia", "Previous stroke/TIA"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Last Known Normal",
+          "type": "text",
+          "placeholder": "e.g., 2 hours ago"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Altered mental status", "Comatose"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hypertensive", "Tachycardic", "Febrile", "Irregular pulse"],
+          "comment": true
+        },
+        {
+          "field": "Mental Status",
+          "type": "checkbox-group",
+          "options": ["Alert and oriented", "Confused", "Aphasic", "Lethargic", "Comatose"],
+          "comment": true
+        },
+        {
+          "field": "Cranial Nerves",
+          "type": "checkbox-group",
+          "options": ["Intact", "Facial droop", "Dysarthria", "Dysphagia", "Visual field cut", "Gaze palsy"],
+          "comment": true
+        },
+        {
+          "field": "Motor Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hemiparesis", "Hemiplegia", "Facial weakness", "Arm weakness", "Leg weakness"],
+          "comment": true
+        },
+        {
+          "field": "Sensory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hemianesthesia", "Focal deficits"],
+          "comment": true
+        },
+        {
+          "field": "Reflexes",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hyperreflexia", "Babinski positive", "Asymmetric"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hemiparetic", "Ataxic", "Unable to assess"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Atrial fibrillation", "Murmur", "Arrhythmia"],
+          "comment": true
+        },
+        {
+          "field": "NIH Stroke Scale",
+          "type": "text",
+          "placeholder": "e.g., 8/42"
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Headache": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 hours, 3 days"
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Frontal", "Temporal", "Occipital", "Parietal", "Unilateral", "Bilateral", "Generalized"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Throbbing", "Pulsating", "Pressure", "Sharp", "Stabbing", "Dull", "Aching"],
+          "comment": true
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Nausea", "Vomiting", "Photophobia", "Phonophobia", "Visual changes", "Aura", "Neck stiffness", "Fever"],
+          "comment": true
+        },
+        {
+          "field": "Red Flags",
+          "type": "checkbox-group",
+          "options": ["None", "Sudden onset", "Worst headache", "Fever", "Neck stiffness", "Altered mental status", "Focal neurological deficits"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Photophobic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hypertensive", "Febrile", "Tachycardic"],
+          "comment": true
+        },
+        {
+          "field": "Head and Neck",
+          "type": "checkbox-group",
+          "options": ["Normal", "Neck stiffness", "Temporal artery tenderness", "Sinus tenderness"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Focal deficits", "Altered mental status", "Papilledema"],
+          "comment": true
+        },
+        {
+          "field": "Cranial Nerves",
+          "type": "checkbox-group",
+          "options": ["Intact", "CN II-VII abnormalities", "CN VIII-XII abnormalities"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Dizziness/Vertigo": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., Seconds, minutes, hours"
+        },
+        {
+          "field": "Type",
+          "type": "checkbox-group",
+          "options": ["Vertigo", "Lightheadedness", "Presyncope", "Disequilibrium"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "checkbox-group",
+          "options": ["None", "Position change", "Head movement", "Standing", "Turning head"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Nausea", "Vomiting", "Hearing loss", "Tinnitus", "Ear fullness", "Nystagmus", "Headache"],
+          "comment": true
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Unsteady", "Nystagmus present"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Orthostatic changes", "Tachycardic", "Hypotensive"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Nystagmus", "Focal deficits", "Ataxia"],
+          "comment": true
+        },
+        {
+          "field": "Cranial Nerves",
+          "type": "checkbox-group",
+          "options": ["Intact", "CN VIII abnormalities", "Other CN deficits"],
+          "comment": true
+        },
+        {
+          "field": "Gait",
+          "type": "checkbox-group",
+          "options": ["Normal", "Ataxic", "Unsteady", "Wide-based"],
+          "comment": true
+        },
+        {
+          "field": "Special Tests",
+          "type": "special-test-dropdown",
+          "tests": ["Dix-Hallpike", "Head impulse test", "Romberg", "Fukuda stepping", "HINTS exam"]
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Pulmonology": {
+    "Cough": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 3 days, 3 weeks, 3 months"
+        },
+        {
+          "field": "Frequency",
+          "type": "checkbox-group",
+          "options": ["Rare", "Occasional", "Frequent", "Constant"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Dry", "Productive", "Wet", "Barking", "Whooping"],
+          "comment": true
+        },
+        {
+          "field": "Sputum",
+          "type": "checkbox-group",
+          "options": ["None", "Clear", "White", "Yellow", "Green", "Blood-tinged", "Rust-colored"],
+          "comment": true
+        },
+        {
+          "field": "Timing",
+          "type": "checkbox-group",
+          "options": ["Constant", "Worse in morning", "Worse at night", "Worse with activity", "Nocturnal"],
+          "comment": true
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Shortness of breath", "Wheezing", "Chest pain", "Fever", "Chills", "Night sweats", "Weight loss"],
+          "comment": true
+        },
+        {
+          "field": "Smoking History",
+          "type": "checkbox-group",
+          "options": ["Never", "Current", "Former", "Pack-years"],
+          "comment": true
+        },
+        {
+          "field": "Exposures",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Ill appearing", "In distress", "Cachectic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachypneic", "Tachycardic", "Febrile", "Hypoxic", "O2 saturation"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachypnea", "Accessory muscle use", "Rales", "Rhonchi", "Wheezing", "Stridor", "Decreased breath sounds", "Pleural rub"],
+          "comment": true
+        },
+        {
+          "field": "Chest Inspection",
+          "type": "checkbox-group",
+          "options": ["Normal", "Barrel chest", "Asymmetric expansion", "Retractions"],
+          "comment": true
+        },
+        {
+          "field": "Percussion",
+          "type": "checkbox-group",
+          "options": ["Resonant", "Dull", "Hyperresonant"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "S3", "JVD", "Murmur"],
+          "comment": true
+        },
+        {
+          "field": "Extremities",
+          "type": "checkbox-group",
+          "options": ["Normal", "Clubbing", "Cyanosis", "Edema"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Shortness of Breath": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 hours, 1 week"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe", "At rest"],
+          "comment": true
+        },
+        {
+          "field": "Exertional Level",
+          "type": "checkbox-group",
+          "options": ["At rest", "Minimal exertion", "Moderate exertion", "Severe exertion", "Nocturnal", "Orthopnea"],
+          "comment": true
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Chest pain", "Cough", "Wheezing", "Orthopnea", "PND", "Edema", "Fatigue"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac History",
+          "type": "checkbox-group",
+          "options": ["None", "CHF", "CAD", "Valvular disease", "Arrhythmia"],
+          "comment": true
+        },
+        {
+          "field": "Pulmonary History",
+          "type": "checkbox-group",
+          "options": ["None", "COPD", "Asthma", "Pneumonia", "PE", "Interstitial lung disease"],
+          "comment": true
+        },
+        {
+          "field": "Smoking History",
+          "type": "checkbox-group",
+          "options": ["Never", "Current", "Former", "Pack-years"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Dyspneic", "Using accessory muscles", "Tripod position"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachypneic", "Tachycardic", "Hypoxic", "Hypertensive", "Hypotensive", "O2 saturation"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rales", "Wheezing", "Rhonchi", "Decreased breath sounds", "Pleural rub", "Stridor"],
+          "comment": true
+        },
+        {
+          "field": "Chest Inspection",
+          "type": "checkbox-group",
+          "options": ["Normal", "Barrel chest", "Asymmetric expansion", "Retractions", "Accessory muscle use"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "S3", "S4", "Murmur", "JVD", "PMI displaced"],
+          "comment": true
+        },
+        {
+          "field": "Extremities",
+          "type": "checkbox-group",
+          "options": ["Normal", "Edema", "Cyanosis", "Clubbing"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Chest Pain": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 30 minutes, 2 hours"
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Substernal", "Left chest", "Right chest", "Pleuristic", "Radiation"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Sharp", "Stabbing", "Pleuristic", "Pressure", "Burning", "Aching"],
+          "comment": true
+        },
+        {
+          "field": "Severity",
+          "type": "number",
+          "min": 0,
+          "max": 10
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Shortness of breath", "Cough", "Fever", "Hemoptysis", "Diaphoresis"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Dyspneic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Tachypneic", "Hypoxic", "Febrile"],
+          "comment": true
+        },
+        {
+          "field": "Respiratory Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased breath sounds", "Pleural rub", "Rales", "Wheezing"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Murmur", "Arrhythmia", "JVD"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Dermatology": {
+    "Rash": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 days, 1 week"
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Face", "Trunk", "Extremities", "Hands", "Feet", "Genital", "Generalized", "Flexural", "Extensor"],
+          "comment": true
+        },
+        {
+          "field": "Distribution",
+          "type": "checkbox-group",
+          "options": ["Localized", "Widespread", "Symmetrical", "Asymmetrical", "Dermatomal"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Macular", "Papular", "Vesicular", "Pustular", "Plaques", "Scales", "Crusts", "Erosions"],
+          "comment": true
+        },
+        {
+          "field": "Color",
+          "type": "checkbox-group",
+          "options": ["Red", "Pink", "Brown", "Purple", "Yellow", "White"],
+          "comment": true
+        },
+        {
+          "field": "Pruritus",
+          "type": "checkbox-group",
+          "options": ["None", "Mild", "Moderate", "Severe"],
+          "comment": true
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Relieving Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Fever", "Pain", "Burning", "Swelling", "Lymphadenopathy"],
+          "comment": true
+        },
+        {
+          "field": "Exposures",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Previous Episodes",
+          "type": "text",
+          "placeholder": "e.g., Similar rash 6 months ago"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Ill appearing", "Toxic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Febrile", "Tachycardic"],
+          "comment": true
+        },
+        {
+          "field": "Skin Inspection",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rash present", "Erythema", "Edema", "Warmth", "Tenderness"],
+          "comment": true
+        },
+        {
+          "field": "Rash Description",
+          "type": "checkbox-group",
+          "options": ["Macular", "Papular", "Vesicular", "Pustular", "Plaques", "Scales", "Crusts", "Erosions", "Ulcerations"],
+          "comment": true
+        },
+        {
+          "field": "Distribution",
+          "type": "checkbox-group",
+          "options": ["Localized", "Widespread", "Symmetrical", "Asymmetrical", "Dermatomal", "Flexural", "Extensor"],
+          "comment": true
+        },
+        {
+          "field": "Mucous Membranes",
+          "type": "checkbox-group",
+          "options": ["Normal", "Erythema", "Lesions", "Ulcerations"],
+          "comment": true
+        },
+        {
+          "field": "Lymph Nodes",
+          "type": "checkbox-group",
+          "options": ["Normal", "Enlarged", "Tender"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Acne": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 months, 2 years"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe", "Nodulocystic"],
+          "comment": true
+        },
+        {
+          "field": "Location",
+          "type": "checkbox-group",
+          "options": ["Face", "Forehead", "Cheeks", "Chin", "Chest", "Back", "Shoulders"],
+          "comment": true
+        },
+        {
+          "field": "Lesion Types",
+          "type": "checkbox-group",
+          "options": ["Comedones", "Papules", "Pustules", "Nodules", "Cysts", "Scarring"],
+          "comment": true
+        },
+        {
+          "field": "Exacerbating Factors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Previous Treatments",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Hormonal Factors",
+          "type": "checkbox-group",
+          "options": ["None", "Menstrual cycle", "Pregnancy", "PCOS", "Hormonal medications"],
+          "comment": true
+        },
+        {
+          "field": "Cosmetic Products",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Normal"],
+          "comment": true
+        },
+        {
+          "field": "Skin Inspection",
+          "type": "checkbox-group",
+          "options": ["Comedones", "Papules", "Pustules", "Nodules", "Cysts", "Scarring", "Hyperpigmentation"],
+          "comment": true
+        },
+        {
+          "field": "Distribution",
+          "type": "checkbox-group",
+          "options": ["Face", "Forehead", "Cheeks", "Chin", "Chest", "Back", "Shoulders"],
+          "comment": true
+        },
+        {
+          "field": "Severity Assessment",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe", "Nodulocystic"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Skin Lesion": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "New", "Changing"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks, 6 months"
+        },
+        {
+          "field": "Location",
+          "type": "text",
+          "placeholder": "e.g., Left forearm, back"
+        },
+        {
+          "field": "Size",
+          "type": "text",
+          "placeholder": "e.g., 5mm, 2cm"
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Macule", "Papule", "Nodule", "Plaque", "Vesicle", "Bulla", "Pustule", "Ulcer", "Crust"],
+          "comment": true
+        },
+        {
+          "field": "Color",
+          "type": "checkbox-group",
+          "options": ["Flesh-colored", "Red", "Pink", "Brown", "Black", "Blue", "Yellow", "White"],
+          "comment": true
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Pruritus", "Pain", "Burning", "Bleeding", "Drainage"],
+          "comment": true
+        },
+        {
+          "field": "Changes",
+          "type": "checkbox-group",
+          "options": ["None", "Growing", "Changing color", "Bleeding", "Ulcerating"],
+          "comment": true
+        },
+        {
+          "field": "Sun Exposure",
+          "type": "checkbox-group",
+          "options": ["Minimal", "Moderate", "Excessive", "History of sunburns"],
+          "comment": true
+        },
+        {
+          "field": "Family History",
+          "type": "checkbox-group",
+          "options": ["None", "Skin cancer", "Melanoma", "Atypical moles"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Normal"],
+          "comment": true
+        },
+        {
+          "field": "Lesion Description",
+          "type": "checkbox-group",
+          "options": ["Macule", "Papule", "Nodule", "Plaque", "Vesicle", "Bulla", "Pustule", "Ulcer", "Crust"],
+          "comment": true
+        },
+        {
+          "field": "Size",
+          "type": "text",
+          "placeholder": "e.g., 5mm x 3mm"
+        },
+        {
+          "field": "Color",
+          "type": "checkbox-group",
+          "options": ["Flesh-colored", "Red", "Pink", "Brown", "Black", "Blue", "Yellow", "White", "Variegated"],
+          "comment": true
+        },
+        {
+          "field": "Borders",
+          "type": "checkbox-group",
+          "options": ["Well-defined", "Ill-defined", "Irregular", "Smooth", "Raised"],
+          "comment": true
+        },
+        {
+          "field": "Texture",
+          "type": "checkbox-group",
+          "options": ["Smooth", "Rough", "Scaly", "Warty", "Smooth"],
+          "comment": true
+        },
+        {
+          "field": "ABCDE Criteria",
+          "type": "checkbox-group",
+          "options": ["Asymmetry", "Border irregularity", "Color variation", "Diameter >6mm", "Evolving"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Endocrinology": {
+    "Diabetes": {
+      "HPI": [
+        {
+          "field": "Type",
+          "type": "checkbox-group",
+          "options": ["Type 1", "Type 2", "Gestational", "Prediabetes", "New diagnosis"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., Newly diagnosed, 5 years"
+        },
+        {
+          "field": "Current Control",
+          "type": "checkbox-group",
+          "options": ["Well controlled", "Poorly controlled", "Uncontrolled"],
+          "comment": true
+        },
+        {
+          "field": "Recent Glucose",
+          "type": "text",
+          "placeholder": "e.g., Fasting 120, Random 180"
+        },
+        {
+          "field": "HbA1c",
+          "type": "text",
+          "placeholder": "e.g., 7.2%"
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Polyuria", "Polydipsia", "Polyphagia", "Weight loss", "Fatigue", "Blurred vision", "Recurrent infections"],
+          "comment": true
+        },
+        {
+          "field": "Complications",
+          "type": "checkbox-group",
+          "options": ["None", "Retinopathy", "Nephropathy", "Neuropathy", "Foot ulcers", "Cardiovascular disease"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Compliance",
+          "type": "checkbox-group",
+          "options": ["Compliant", "Non-compliant", "Partial compliance"],
+          "comment": true
+        },
+        {
+          "field": "Diet",
+          "type": "checkbox-group",
+          "options": ["Following diet", "Non-compliant", "Uncertain"],
+          "comment": true
+        },
+        {
+          "field": "Exercise",
+          "type": "checkbox-group",
+          "options": ["Regular", "Occasional", "None"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Cachectic", "Obese"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hypertensive", "Tachycardic"],
+          "comment": true
+        },
+        {
+          "field": "Weight/BMI",
+          "type": "text",
+          "placeholder": "e.g., 180 lbs, BMI 28"
+        },
+        {
+          "field": "Eyes",
+          "type": "checkbox-group",
+          "options": ["Normal", "Retinopathy", "Cataracts", "Not examined"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Murmur", "Arrhythmia"],
+          "comment": true
+        },
+        {
+          "field": "Foot Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Ulcers", "Deformities", "Loss of sensation", "Poor pulses", "Dry skin"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Peripheral neuropathy", "Monofilament test abnormal"],
+          "comment": true
+        },
+        {
+          "field": "Skin",
+          "type": "checkbox-group",
+          "options": ["Normal", "Acanthosis nigricans", "Necrobiosis", "Diabetic dermopathy"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Thyroid Disorder": {
+      "HPI": [
+        {
+          "field": "Type",
+          "type": "checkbox-group",
+          "options": ["Hyperthyroidism", "Hypothyroidism", "Thyroid nodule", "Goiter", "Thyroiditis"],
+          "comment": true
+        },
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 months, 2 years"
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Fatigue", "Weight changes", "Heat/cold intolerance", "Palpitations", "Tremor", "Hair loss", "Dry skin", "Constipation", "Diarrhea", "Menstrual changes", "Mood changes"],
+          "comment": true
+        },
+        {
+          "field": "Neck Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Enlargement", "Pain", "Tenderness", "Difficulty swallowing", "Hoarseness"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Previous Thyroid History",
+          "type": "text",
+          "placeholder": "e.g., Thyroid surgery, radiation"
+        },
+        {
+          "field": "Family History",
+          "type": "checkbox-group",
+          "options": ["None", "Thyroid disease", "Autoimmune disease"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "Anxious", "Fatigued", "Cachectic"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Bradycardic", "Hypertensive", "Hypotensive", "Febrile"],
+          "comment": true
+        },
+        {
+          "field": "Neck Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Goiter", "Nodules", "Tender", "Asymmetric"],
+          "comment": true
+        },
+        {
+          "field": "Thyroid Size",
+          "type": "checkbox-group",
+          "options": ["Normal", "Enlarged", "Massive"],
+          "comment": true
+        },
+        {
+          "field": "Thyroid Consistency",
+          "type": "checkbox-group",
+          "options": ["Normal", "Firm", "Soft", "Nodular"],
+          "comment": true
+        },
+        {
+          "field": "Eyes",
+          "type": "checkbox-group",
+          "options": ["Normal", "Exophthalmos", "Lid lag", "Lid retraction"],
+          "comment": true
+        },
+        {
+          "field": "Skin",
+          "type": "checkbox-group",
+          "options": ["Normal", "Dry", "Moist", "Warm", "Cool"],
+          "comment": true
+        },
+        {
+          "field": "Cardiac Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardia", "Bradycardia", "Atrial fibrillation", "Murmur"],
+          "comment": true
+        },
+        {
+          "field": "Neurological Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tremor", "Hyperreflexia", "Hyporeflexia"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Psychiatry": {
+    "Depression": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Recurrent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks, 6 months"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe"],
+          "comment": true
+        },
+        {
+          "field": "Mood Symptoms",
+          "type": "checkbox-group",
+          "options": ["Depressed mood", "Anhedonia", "Irritability", "Hopelessness", "Worthlessness", "Guilt"],
+          "comment": true
+        },
+        {
+          "field": "Neurovegetative Symptoms",
+          "type": "checkbox-group",
+          "options": ["Sleep disturbance", "Appetite changes", "Fatigue", "Concentration problems", "Psychomotor changes"],
+          "comment": true
+        },
+        {
+          "field": "Sleep",
+          "type": "checkbox-group",
+          "options": ["Normal", "Insomnia", "Hypersomnia", "Early awakening"],
+          "comment": true
+        },
+        {
+          "field": "Appetite",
+          "type": "checkbox-group",
+          "options": ["Normal", "Decreased", "Increased", "Weight loss", "Weight gain"],
+          "comment": true
+        },
+        {
+          "field": "Suicidal Ideation",
+          "type": "checkbox-group",
+          "options": ["None", "Passive", "Active", "Plan", "Intent", "Means"],
+          "comment": true
+        },
+        {
+          "field": "Homicidal Ideation",
+          "type": "checkbox-group",
+          "options": ["None", "Present"],
+          "comment": true
+        },
+        {
+          "field": "Psychotic Features",
+          "type": "checkbox-group",
+          "options": ["None", "Hallucinations", "Delusions", "Paranoia"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Previous Episodes",
+          "type": "text",
+          "placeholder": "e.g., First episode, multiple previous episodes"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well-groomed", "Disheveled", "Unkempt", "Appropriate dress"],
+          "comment": true
+        },
+        {
+          "field": "Behavior",
+          "type": "checkbox-group",
+          "options": ["Normal", "Psychomotor retardation", "Psychomotor agitation", "Eye contact poor"],
+          "comment": true
+        },
+        {
+          "field": "Speech",
+          "type": "checkbox-group",
+          "options": ["Normal", "Slow", "Monotone", "Low volume", "Pressured"],
+          "comment": true
+        },
+        {
+          "field": "Mood",
+          "type": "checkbox-group",
+          "options": ["Euthymic", "Depressed", "Dysphoric", "Irritable", "Anxious"],
+          "comment": true
+        },
+        {
+          "field": "Affect",
+          "type": "checkbox-group",
+          "options": ["Congruent", "Incongruent", "Flat", "Blunted", "Restricted"],
+          "comment": true
+        },
+        {
+          "field": "Thought Process",
+          "type": "checkbox-group",
+          "options": ["Linear", "Tangential", "Circumstantial", "Blocking"],
+          "comment": true
+        },
+        {
+          "field": "Thought Content",
+          "type": "checkbox-group",
+          "options": ["Normal", "SI", "HI", "Delusions", "Obsessions"],
+          "comment": true
+        },
+        {
+          "field": "Perceptions",
+          "type": "checkbox-group",
+          "options": ["Normal", "Hallucinations", "Illusions"],
+          "comment": true
+        },
+        {
+          "field": "Cognition",
+          "type": "checkbox-group",
+          "options": ["Alert and oriented", "Memory intact", "Concentration impaired", "Judgment impaired"],
+          "comment": true
+        },
+        {
+          "field": "Insight",
+          "type": "checkbox-group",
+          "options": ["Good", "Fair", "Poor"],
+          "comment": true
+        },
+        {
+          "field": "Judgment",
+          "type": "checkbox-group",
+          "options": ["Good", "Fair", "Poor"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Anxiety": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 weeks, 6 months"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe", "Panic"],
+          "comment": true
+        },
+        {
+          "field": "Type",
+          "type": "checkbox-group",
+          "options": ["Generalized", "Panic", "Social", "Specific phobia", "Agoraphobia"],
+          "comment": true
+        },
+        {
+          "field": "Symptoms",
+          "type": "checkbox-group",
+          "options": ["Worry", "Restlessness", "Fatigue", "Concentration problems", "Irritability", "Muscle tension", "Sleep disturbance"],
+          "comment": true
+        },
+        {
+          "field": "Panic Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Palpitations", "Sweating", "Trembling", "Shortness of breath", "Chest pain", "Nausea", "Dizziness", "Chills", "Paresthesias", "Derealization", "Fear of dying"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Avoidance Behaviors",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Functional Impact",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Substance Use",
+          "type": "checkbox-group",
+          "options": ["None", "Caffeine", "Alcohol", "Tobacco", "Illicit drugs"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well-groomed", "Anxious", "Restless", "Fidgety"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Hypertensive", "Tachypneic"],
+          "comment": true
+        },
+        {
+          "field": "Behavior",
+          "type": "checkbox-group",
+          "options": ["Normal", "Agitated", "Restless", "Hypervigilant"],
+          "comment": true
+        },
+        {
+          "field": "Speech",
+          "type": "checkbox-group",
+          "options": ["Normal", "Rapid", "Pressured"],
+          "comment": true
+        },
+        {
+          "field": "Mood",
+          "type": "checkbox-group",
+          "options": ["Euthymic", "Anxious", "Irritable"],
+          "comment": true
+        },
+        {
+          "field": "Affect",
+          "type": "checkbox-group",
+          "options": ["Congruent", "Anxious", "Labile"],
+          "comment": true
+        },
+        {
+          "field": "Thought Process",
+          "type": "checkbox-group",
+          "options": ["Linear", "Racing thoughts", "Ruminative"],
+          "comment": true
+        },
+        {
+          "field": "Thought Content",
+          "type": "checkbox-group",
+          "options": ["Normal", "Worries", "Catastrophic thinking", "Obsessions"],
+          "comment": true
+        },
+        {
+          "field": "Cognition",
+          "type": "checkbox-group",
+          "options": ["Alert and oriented", "Concentration impaired"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  },
+  "Urology": {
+    "Urinary Frequency": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 1 week, 3 months"
+        },
+        {
+          "field": "Frequency",
+          "type": "checkbox-group",
+          "options": ["Increased", "Normal", "Decreased"],
+          "comment": true
+        },
+        {
+          "field": "Volume",
+          "type": "checkbox-group",
+          "options": ["Normal", "Large", "Small"],
+          "comment": true
+        },
+        {
+          "field": "Urgency",
+          "type": "checkbox-group",
+          "options": ["None", "Mild", "Moderate", "Severe"],
+          "comment": true
+        },
+        {
+          "field": "Dysuria",
+          "type": "checkbox-group",
+          "options": ["None", "Mild", "Moderate", "Severe"],
+          "comment": true
+        },
+        {
+          "field": "Nocturia",
+          "type": "checkbox-group",
+          "options": ["None", "1-2x", "3-4x", ">4x"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Hematuria", "Cloudy urine", "Foul odor", "Fever", "Flank pain", "Incontinence", "Retention"],
+          "comment": true
+        },
+        {
+          "field": "Triggers",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Fluid Intake",
+          "type": "checkbox-group",
+          "options": ["Normal", "Increased", "Decreased", "Caffeine", "Alcohol"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Uncomfortable"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Febrile", "Tachycardic", "Hypertensive"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tender", "Distended", "Masses", "CVA tenderness"],
+          "comment": true
+        },
+        {
+          "field": "Genitourinary Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Discharge", "Lesions", "Tenderness", "Masses", "Enlarged prostate"],
+          "comment": true
+        },
+        {
+          "field": "Pelvic Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Tender", "Masses", "Cystocele", "Rectocele"],
+          "comment": true
+        },
+        {
+          "field": "Rectal Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Enlarged prostate", "Tender", "Nodules"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Hematuria": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic", "Intermittent"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 1 day, 1 week"
+        },
+        {
+          "field": "Type",
+          "type": "checkbox-group",
+          "options": ["Gross", "Microscopic", "Initial", "Terminal", "Throughout"],
+          "comment": true
+        },
+        {
+          "field": "Color",
+          "type": "checkbox-group",
+          "options": ["Red", "Pink", "Brown", "Tea-colored"],
+          "comment": true
+        },
+        {
+          "field": "Clots",
+          "type": "checkbox-group",
+          "options": ["None", "Present"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Dysuria", "Frequency", "Urgency", "Flank pain", "Abdominal pain", "Fever", "Chills"],
+          "comment": true
+        },
+        {
+          "field": "Trauma",
+          "type": "checkbox-group",
+          "options": ["None", "Recent trauma", "Exercise", "Catheterization"],
+          "comment": true
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Risk Factors",
+          "type": "checkbox-group",
+          "options": ["None", "Smoking", "Occupational exposures", "Family history", "Previous stones"],
+          "comment": true
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Pale"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tachycardic", "Hypotensive", "Febrile"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Tender", "Masses", "CVA tenderness"],
+          "comment": true
+        },
+        {
+          "field": "Genitourinary Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Discharge", "Lesions", "Trauma", "Masses"],
+          "comment": true
+        },
+        {
+          "field": "Rectal Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Enlarged prostate", "Tender", "Nodules", "Blood"],
+          "comment": true
+        },
+        {
+          "field": "Pelvic Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Tender", "Masses", "Lesions"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    },
+    "Dysuria": {
+      "HPI": [
+        {
+          "field": "Onset",
+          "type": "checkbox-group",
+          "options": ["Acute", "Gradual", "Chronic"],
+          "comment": true
+        },
+        {
+          "field": "Duration",
+          "type": "text",
+          "placeholder": "e.g., 2 days, 1 week"
+        },
+        {
+          "field": "Severity",
+          "type": "checkbox-group",
+          "options": ["Mild", "Moderate", "Severe"],
+          "comment": true
+        },
+        {
+          "field": "Character",
+          "type": "checkbox-group",
+          "options": ["Burning", "Pain", "Stinging", "Pressure"],
+          "comment": true
+        },
+        {
+          "field": "Timing",
+          "type": "checkbox-group",
+          "options": ["Throughout", "Initial", "Terminal", "After voiding"],
+          "comment": true
+        },
+        {
+          "field": "Associated Symptoms",
+          "type": "checkbox-group",
+          "options": ["None", "Frequency", "Urgency", "Hematuria", "Cloudy urine", "Foul odor", "Fever", "Chills", "Flank pain"],
+          "comment": true
+        },
+        {
+          "field": "Sexual History",
+          "type": "checkbox-group",
+          "options": ["Not applicable", "Recent new partner", "STI exposure", "Dyspareunia"],
+          "comment": true
+        },
+        {
+          "field": "Previous Episodes",
+          "type": "text",
+          "placeholder": "e.g., Recurrent UTIs, first episode"
+        },
+        {
+          "field": "Medications",
+          "type": "dynamic-list"
+        },
+        {
+          "field": "Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant information"
+        }
+      ],
+      "Exam": [
+        {
+          "field": "General Appearance",
+          "type": "checkbox-group",
+          "options": ["Well appearing", "In distress", "Uncomfortable"],
+          "comment": true
+        },
+        {
+          "field": "Vital Signs",
+          "type": "checkbox-group",
+          "options": ["Normal", "Febrile", "Tachycardic"],
+          "comment": true
+        },
+        {
+          "field": "Abdominal Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Suprapubic tenderness", "CVA tenderness"],
+          "comment": true
+        },
+        {
+          "field": "Genitourinary Exam",
+          "type": "checkbox-group",
+          "options": ["Normal", "Discharge", "Lesions", "Tenderness", "Erythema"],
+          "comment": true
+        },
+        {
+          "field": "Pelvic Exam",
+          "type": "checkbox-group",
+          "options": ["Not performed", "Normal", "Tender", "Discharge", "Lesions"],
+          "comment": true
+        },
+        {
+          "field": "Exam Notes",
+          "type": "textarea",
+          "placeholder": "Any other relevant exam information"
+        }
+      ]
+    }
+  }
+}
